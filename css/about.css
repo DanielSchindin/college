@@ -1,0 +1,88 @@
+header {
+	width: 100%;
+	background-color: #FF6B00;
+	display: flex;
+	/*height: 1025px;*/
+}
+
+.header_logo {
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 600;
+	font-size: 36px;
+	cursor: pointer;
+	margin-top: 65px;
+	margin-left: 19.5%;
+}
+
+nav {
+	margin-top: 71px;
+	margin-left: 3.8%;
+}
+
+.topnav a {
+	color: #fff;
+	text-align: center;
+	margin-right: 68px;
+	font-size: 18px;
+	font-weight: ;
+	transition: 1s;
+	text-align: center; 
+}
+
+.phone_about {
+	font-weight: bold;
+}
+
+.topnav a:hover {
+	font-size: 20px;
+}
+
+.fa {
+	color: blue;
+}
+
+.topnav .icon {
+	display: none;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.content_about {
+	background-color: #FF6B00;
+	width: 100%;
+}
+
+.content_about_1 {
+	width: 61.5%;
+	margin: 0 auto;
+	display: flex;
+	padding: 133px 0 195px 0;
+}
+
+.content_about_left {
+	margin-right: 90px;
+}
+
+.content_about h1 {
+	font-size: 68px;
+	color: #fff;
+}
+
+.content_about .text {
+	margin-top: 45px;
+}
+
+.content_about .text p {
+	margin-top: 10px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.content_about img {
+	width: 545px;
+}
